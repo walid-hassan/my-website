@@ -80,3 +80,41 @@ footer{
 .bottom h1{
     font-size: 40px;
 }
+/********responsive section*********/
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+    .top {
+        height: 800px;
+        padding-bottom: 40px;
+    }
+    .half-width {
+        width: 70%
+    }
+    .middle {
+        width: 100%;
+        height: 1000px;
+        background: none;
+        padding-bottom: 40px;
+    }
+    .bottom{
+        height: 1200px;
+        background: none;
+        padding-bottom: 40px;
+    }
+    .ex-one {
+        width: 65%;
+        margin-left: 9%;
+        height: 480px;
+        margin-bottom: 35px;
+        padding-bottom: 40px;
+    }
+
+ }
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+
+
+}
