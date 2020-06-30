@@ -31,6 +31,7 @@ body{
     color: white;
     font-weight: 700;
     text-decoration: none;
+    border-radius: 3px;
 }
 .middle {
     width: 100%;
@@ -66,9 +67,9 @@ body{
 }
 }
 
-body p{
-    color: dimgray;
-    font-size: 12px;
+ p{
+    color: dimgray !important;
+    font-size: 16px !important
 }
 footer{
     text-align: center;
